@@ -13,7 +13,7 @@ html{
 .contenedor-header{
     background: #1e2326;
     position: fixed;
-    width: 100%;
+    width: 80%;
     top: 0;
     left: 0;
     z-index: 99;
@@ -38,7 +38,7 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -49,7 +49,7 @@ html{
 }
 .nav-responsive{
     background-color: #1CB698;
-    color:#fff;
+    color:rgb(255, 255, 255);
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -57,11 +57,11 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    background: linear-gradient(to top, rgba(38, 30, 33, 0.8), rgba(30,35,38,1)),
     url(img/fondo.jpg);
     background-size: cover;
     height: 100vh;
-    color: #fff;
+    color:rgb(225, 65, 172);
     display: flex;
     align-items: center;
 }
@@ -104,11 +104,11 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #2a41a7;
 }
 .sobremi{
     background-color: #1e2326;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 50px 20px;
 }
 .sobremi .contenido-seccion{
@@ -128,7 +128,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #b61c76;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -151,7 +151,7 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #1c5ab6;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
@@ -428,7 +428,7 @@ html{
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #b61c71;
     width: 47px;
     position: absolute;
     top: 50%;
